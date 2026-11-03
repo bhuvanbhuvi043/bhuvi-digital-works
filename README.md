@@ -2,7 +2,7 @@
 
 Official portfolio and digital studio site for Bhuvaneshwaran R, based in Chennai, India.
 
-The site is built with React, TypeScript and Vite, and deployed to GitHub Pages at [bhuvanbhuvi043.github.io/bhuvi-digital-works](https://bhuvanbhuvi043.github.io/bhuvi-digital-works/).
+The site is built with React, TypeScript and Vite, and deployed to GitHub Pages at [bhuvanbhuvi043.github.io/bhuvi-digital-works](https://bhuvanbhuvi043.github.io/bhuvi-digital-works/). The build writes the compiled site to the repository root as well as `dist/`, so both branch based Pages and the Actions artifact serve browser-ready JavaScript.
 
 ## Local development
 

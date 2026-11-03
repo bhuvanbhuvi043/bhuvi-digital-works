@@ -1,10 +1,15 @@
 import { useState } from 'react'
 
 const projects = [
+  { name: 'Card Sabha', type: 'Live multiplayer card game', description: 'A social card-playing experience with online rooms and familiar Indian card games. Play with friends from any device.', href: 'https://card-sabha.card-sabha.workers.dev/', mark: 'C' },
+  { name: 'Webpify', type: 'Live image converter', description: 'A quick image conversion tool that helps make web-ready assets for everyday creative and website work.', href: 'https://webpify-image-converter.sheerriver2.chatgpt.site/', mark: 'W' },
   { name: 'Zetiify', type: 'Product prototype', description: 'A networking platform concept connecting founders, investors and talent with profiles, chat and focused dashboards.', href: 'https://github.com/bhuvanbhuvi043/zetiify-poc', mark: 'Z' },
   { name: 'VisionMate', type: 'Business automation', description: 'A desktop workflow for finding business information and preparing structured outreach data for review.', href: 'https://github.com/bhuvanbhuvi043/VisionMate', mark: 'V' },
   { name: 'World Tourism Map', type: 'Travel technology', description: 'An interactive destination discovery experience designed for travel brands and tourism audiences.', href: 'https://github.com/bhuvanbhuvi043/world-tourism-map-explorer', mark: 'W' },
   { name: 'AI Writing Tool', type: 'AI product', description: 'A writing assistant exploring more natural, reader-friendly copy for creators and marketers.', href: 'https://github.com/bhuvanbhuvi043/AI-Text-To-Human-Text-Converter', mark: 'A' },
+  { name: 'Box Chain Arena', type: 'Multiplayer game prototype', description: 'An online strategy duel with custom arenas and Firebase multiplayer, built around quick tactical matches.', href: 'https://github.com/bhuvanbhuvi043/Box-Chain-Arena', mark: 'B' },
+  { name: 'Serpent Playground', type: 'Word game', description: 'A playful snake game where players collect the right words to form a sentence.', href: 'https://github.com/bhuvanbhuvi043/serpentplaygroung', mark: 'S' },
+  { name: 'Lunch Time', type: 'Food delivery concept', description: 'A food delivery app concept focused on convenience, choice and thoughtful service.', href: 'https://github.com/bhuvanbhuvi043/lunch-time-app', mark: 'L' },
 ]
 
 const services = [

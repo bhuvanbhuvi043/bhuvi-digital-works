@@ -1,8 +1,10 @@
 import { useState } from 'react'
 
-const projects = [
-  { name: 'Card Sabha', type: 'Live multiplayer card game', description: 'A social card-playing experience with online rooms and familiar Indian card games. Play with friends from any device.', href: 'https://card-sabha.card-sabha.workers.dev/', mark: 'C' },
-  { name: 'Webpify', type: 'Live image converter', description: 'A quick image conversion tool that helps make web-ready assets for everyday creative and website work.', href: 'https://webpify-image-converter.sheerriver2.chatgpt.site/', mark: 'W' },
+type Project = { name: string; type: string; description: string; href: string; mark: string; image?: string }
+
+const projects: Project[] = [
+  { name: 'Card Sabha', type: 'Live multiplayer card game', description: 'A social card-playing experience with online rooms and familiar Indian card games. Play with friends from any device.', href: 'https://card-sabha.card-sabha.workers.dev/', mark: 'C', image: 'card-sabha.webp' },
+  { name: 'Webpify', type: 'Live image converter', description: 'A quick image conversion tool that helps make web-ready assets for everyday creative and website work.', href: 'https://webpify-image-converter.sheerriver2.chatgpt.site/', mark: 'W', image: 'webpify.webp' },
   { name: 'Zetiify', type: 'Product prototype', description: 'A networking platform concept connecting founders, investors and talent with profiles, chat and focused dashboards.', href: 'https://github.com/bhuvanbhuvi043/zetiify-poc', mark: 'Z' },
   { name: 'VisionMate', type: 'Business automation', description: 'A desktop workflow for finding business information and preparing structured outreach data for review.', href: 'https://github.com/bhuvanbhuvi043/VisionMate', mark: 'V' },
   { name: 'World Tourism Map', type: 'Travel technology', description: 'An interactive destination discovery experience designed for travel brands and tourism audiences.', href: 'https://github.com/bhuvanbhuvi043/world-tourism-map-explorer', mark: 'W' },
@@ -65,7 +67,7 @@ function App() {
           <div className="hero-art" aria-label="A look into the Bhuvi Digital Works studio">
             <div className="art-orbit orbit-one" /><div className="art-orbit orbit-two" />
             <div className="art-label art-label-top"><span>BDW / 01</span><span>Digital, connected.</span></div>
-            <img className="cover-image" src="./assets/cover.png" alt="Bhuvi Digital Works digital services and creative solutions" />
+            <img className="hero-artwork" src="./assets/studio-hero.webp" alt="Glass forms and light arranged into a connected digital studio artwork" width="1440" height="960" fetchPriority="high" decoding="async" />
             <div className="art-stamp"><span>THOUGHTFUL<br />BY DESIGN</span><b>✳</b></div>
             <div className="art-label art-label-bottom"><span>WEB</span><span>SEARCH</span><span>SYSTEMS</span><span>STORY</span></div>
           </div>
@@ -84,7 +86,7 @@ function App() {
         <section className="work-section" id="work">
           <div className="wrap section work-inner">
             <div className="section-heading"><div><p className="eyebrow">Selected work & experiments</p><h2>Ideas made<br /><em>real.</em></h2></div><p className="section-summary">A selection of digital products, prototypes and practical tools built around real-world needs.</p></div>
-            <div className="project-grid">{projects.map((project, index) => <a className={`project-card project-${index + 1}`} href={project.href} target="_blank" rel="noreferrer" key={project.name}><div className="project-card-top"><span>{project.type}</span><Arrow diagonal /></div><div className="project-mark">{project.mark}</div><div className="project-card-copy"><h3>{project.name}</h3><p>{project.description}</p><span className="project-visit">View project <Arrow /></span></div></a>)}</div>
+            <div className="project-grid">{projects.map((project, index) => <a className={`project-card project-${index + 1}`} href={project.href} target="_blank" rel="noreferrer" key={project.name}>{project.image && <img className="project-art" src={`./assets/${project.image}`} alt="" loading="lazy" decoding="async" width="900" height="600" />}<div className="project-card-top"><span>{project.type}</span><Arrow diagonal /></div><div className="project-mark">{project.mark}</div><div className="project-card-copy"><h3>{project.name}</h3><p>{project.description}</p><span className="project-visit">View project <Arrow /></span></div></a>)}</div>
             <div className="work-foot"><span>More experiments and source code</span><a href="https://github.com/bhuvanbhuvi043" target="_blank" rel="noreferrer">Explore GitHub <Arrow diagonal /></a></div>
           </div>
         </section>

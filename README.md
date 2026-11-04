@@ -13,6 +13,15 @@ npm run dev
 
 Create a production build with `npm run build`. GitHub Actions publishes the `dist` directory to Pages whenever `main` is updated.
 
+## Brand assets
+
+- `public/assets/bhuvi-digital-works-logo.svg` — primary full wordmark with transparent background
+- `public/assets/bhuvi-digital-works-logo.png` — transparent PNG export of the wordmark
+- `public/assets/bhuvi-mark.svg` — compact mark for light surfaces and the favicon
+- `public/assets/bhuvi-mark-light.svg` — compact mark for dark surfaces
+
+The B monogram keeps the original blue identity, the pixels represent digital craft, and the orange circuit line represents connected technology and automation.
+
 ## Site content
 
 - Digital services: web design, SEO, AI automation and creative production

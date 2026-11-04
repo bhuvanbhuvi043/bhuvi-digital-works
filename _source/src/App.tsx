@@ -36,7 +36,7 @@ function App() {
       <header className="header">
         <nav className="nav wrap" aria-label="Main navigation">
           <a href="#home" className="brand" aria-label="Bhuvi Digital Works home">
-            <img src="./assets/bhuvi-mark.svg" alt="" />
+            <img src="./assets/bhuvi-mark.png" alt="" />
             <span>Bhuvi<span className="brand-light">Digital Works</span></span>
           </a>
           <button className="menu-button" aria-expanded={menuOpen} aria-controls="nav-links" onClick={() => setMenuOpen(!menuOpen)}>
@@ -110,7 +110,7 @@ function App() {
         <section className="contact-section wrap section" id="contact"><div className="contact-panel"><div className="contact-orb" /><p className="eyebrow">Have a good one in mind?</p><h2>Let’s make<br />something <em>work.</em></h2><p className="contact-intro">Tell me what you’re building, what’s getting in the way, or what you’d like to make better. We’ll take it from there.</p><a className="button button-lime" href="mailto:bhuvanbhuvi043@gmail.com?subject=Let%E2%80%99s%20talk%20about%20a%20project">Tell me about your project <Arrow diagonal /></a><div className="contact-direct"><a href="mailto:bhuvanbhuvi043@gmail.com">bhuvanbhuvi043@gmail.com</a><a href="tel:+917448488925">+91 74484 88925</a></div></div></section>
       </main>
 
-      <footer className="footer"><div className="wrap footer-top"><a href="#home" className="brand"><img src="./assets/bhuvi-mark-light.svg" alt="" /><span>Bhuvi<span className="brand-light">Digital Works</span></span></a><p>Digital craft for a world<br />that keeps moving.</p><div className="footer-social"><a href="https://github.com/bhuvanbhuvi043" target="_blank" rel="noreferrer">GitHub <Arrow diagonal /></a><a href="https://www.linkedin.com/in/bhuvaneshwaran-r04031999/" target="_blank" rel="noreferrer">LinkedIn <Arrow diagonal /></a><a href="https://wa.me/917448488925" target="_blank" rel="noreferrer">WhatsApp <Arrow diagonal /></a></div></div><div className="wrap footer-bottom"><span>© {year} Bhuvi Digital Works · Chennai, India</span><a href="#home">Back to top ↑</a><span>Built with care by Bhuvaneshwaran R</span></div></footer>
+      <footer className="footer"><div className="wrap footer-top"><a href="#home" className="brand"><img src="./assets/bhuvi-mark.png" alt="" /><span>Bhuvi<span className="brand-light">Digital Works</span></span></a><p>Digital craft for a world<br />that keeps moving.</p><div className="footer-social"><a href="https://github.com/bhuvanbhuvi043" target="_blank" rel="noreferrer">GitHub <Arrow diagonal /></a><a href="https://www.linkedin.com/in/bhuvaneshwaran-r04031999/" target="_blank" rel="noreferrer">LinkedIn <Arrow diagonal /></a><a href="https://wa.me/917448488925" target="_blank" rel="noreferrer">WhatsApp <Arrow diagonal /></a></div></div><div className="wrap footer-bottom"><span>© {year} Bhuvi Digital Works · Chennai, India</span><a href="#home">Back to top ↑</a><span>Built with care by Bhuvaneshwaran R</span></div></footer>
     </>
   )
 }

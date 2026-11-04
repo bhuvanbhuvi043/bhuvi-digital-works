@@ -45,3 +45,4 @@
 }
 @media(max-width:370px){.wrap{width:calc(100% - 30px)}.hero h1{font-size:42px;letter-spacing:-3px}.hero-ctas{gap:8px}.hero .button{padding-inline:12px}.hero .text-link{font-size:9px}.brand{font-size:11px}.project-card{min-height:245px}}
 @media(prefers-reduced-motion:reduce){.hero-copy>* ,.hero-art,.hero-artwork,.art-stamp{animation:none!important}.hero-art:after{display:none}}
+.footer .brand img{padding:2px;border-radius:7px;background:#f7f9ff;box-shadow:0 4px 13px rgba(0,0,0,.16)}

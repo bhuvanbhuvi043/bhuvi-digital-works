@@ -17,10 +17,10 @@ Create a production build with `npm run build`. GitHub Actions publishes the `di
 
 - `public/assets/bhuvi-digital-works-logo.svg` — primary full wordmark with transparent background
 - `public/assets/bhuvi-digital-works-logo.png` — transparent PNG export of the wordmark
-- `public/assets/bhuvi-mark.svg` — compact mark for light surfaces and the favicon
-- `public/assets/bhuvi-mark-light.svg` — compact mark for dark surfaces
+- `public/assets/bhuvi-mark.png` — optimized transparent copy of the supplied logo artwork
+- `public/assets/bhuvi-mark.svg` — scalable SVG wrapper for the supplied mark
 
-The B monogram keeps the original blue identity, the pixels represent digital craft, and the orange circuit line represents connected technology and automation.
+The B monogram keeps the blue identity, the pixel fade represents digital craft, and the orange circuit line represents connected technology and automation.
 
 ## Site content
 
